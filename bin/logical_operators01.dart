@@ -9,5 +9,8 @@ Given three integers a, b, c,  check the following statement "The number b is be
     Returns:
         bool: answer
 */
+bool func(int a, int b, int c) {
+  return (b >= a && a >= c) || (b <= a && a <= c);
+}
 
 void main() {}

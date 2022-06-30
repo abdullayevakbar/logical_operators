@@ -9,5 +9,17 @@ Five number consisting of one and zero is given (the number starts at once).
     Returns:
         bool: answer
 */
+bool func(int n) {
+  int x = n % 10;
+  n ~/= 10;
+  x += n % 10;
+  n ~/= 10;
+  x += n % 10;
+  n ~/= 10;
+  x += n % 10;
+  n ~/= 10;
+  x += n % 10;
+  return (5 - x < x);
+}
 
 void main() {}

@@ -7,5 +7,8 @@ Given integer a,  check the following statement "The integer is two-digit number
     Returns:
         bool: answer
 */
+bool func(int a) {
+  return (a ~/ 10 > 0 && a ~/ 100 == 0);
+}
 
 void main() {}

@@ -8,5 +8,8 @@ Create a function argument  called a, b of type int
     Returns:
         bool: answer
 */
+bool func(int a, int b) {
+  return (a % 2 == 0 || b % 2 == 0);
+}
 
 void main() {}

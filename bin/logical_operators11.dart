@@ -7,5 +7,8 @@ Given integer a,  check the following statement "The integer is three-digit numb
     Returns:
         bool: answer
 */
+bool func(int a) {
+  return (a ~/ 100 > 0 && a ~/ 1000 == 0);
+}
 
 void main() {}
