@@ -11,4 +11,6 @@ bool func(int a) {
   return (a ~/ 10000 > 0 && a ~/ 100000 == 0);
 }
 
-void main() {}
+void main() {
+  print(func(1));
+}
