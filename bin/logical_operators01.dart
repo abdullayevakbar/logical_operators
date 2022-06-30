@@ -10,6 +10,9 @@ Given three integers a, b, c,  check the following statement "The number b is be
         bool: answer
 */
 bool func(int a, int b, int c) {
+  int tem = a;
+  a = b;
+  b = tem;
   return (b >= a && a >= c) || (b <= a && a <= c);
 }
 
